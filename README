@@ -1,0 +1,22 @@
+Welcome to the Tie::Hash::Overlay README file. :)
+
+The basic idea for this module is simple enough. Whenever a hash is
+accessed, search through a list of other hashes and see if the key is in
+any of them. If it is, access that hash. Otherwise, access a fall-through
+hash that ensures that no accesses fail.
+
+Of course, there's a bit more to it than that. But the above description
+should be enough for now. This module is used in my Inheritance module,
+and that would be good place to look to see how to put this to good use.
+
+If you find a bug, have a question or comment, or just want to make a
+recommendation, feel free send me an e-mail at jql@accessone.com.
+
+<LEGALESE>
+
+Copyright (C) 1997 Ashley Winters <jql@accessone.com>. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+</LEGALESE>

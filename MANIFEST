@@ -1,0 +1,14 @@
+Changes
+INSTALL
+MANIFEST
+Makefile.PL
+Overlay.pm
+README
+t/clear.t
+t/delete.t
+t/exists.t
+t/fetch.t
+t/keys.t
+t/new.t
+t/overlay.t
+t/store.t

@@ -1,0 +1,32 @@
+Revision history for Perl extension Tie::Hash::Overlay.
+
+0.01  Sun Jan 26 01:29:44 1997
+	- 0.01 officially released
+
+0.02  Fri Jan 24 02:37:03 1997
+	- Fleshed out the tests in t/, they should be adequate now.
+	- Cleaned up the module source. Removed comments, etc...
+	- Updated the INSTALL file
+
+0.02  Thu Jan 16 02:18:21 1997
+	- Made a semi-questionable fix to correct the output of keys,
+	  where the same key in multiple overlayed hashes would be listed
+	  multiple times. And DELETE() was modified to delete instances
+	  of a key in all overlayed hashes. Documentation was changed
+	  accordingly.
+
+0.02  Thu Jan 16 01:39:07 1997
+	- Scrapped test.pl, added a t/ directory, created minimal tests.
+
+0.02  Wed Jan 15 19:39:56 1997
+	- Added a new() function to Tie::Hash::Overlay, which allowed
+	  me to change overlay() from a static constructor to a function
+	  that pushes hashes to be overlayed in a stack-like way.
+	  Documentation changed accordingly.
+
+0.01  Sun Jan 12 23:19:50 1997
+	- 0.01 officially released
+
+0.01  Sun Jan 12 02:01:11 1997
+	- original version; created by h2xs 1.16
+

@@ -1,0 +1,16 @@
+Once you have downloaded Overlay-0.XX.tar.gz and have extracted it
+into a convenient directory, make sure you have entered the newly created
+Overlay directory before proceeding.
+
+Run the command 'perl Makefile.PL ; make test' from your shell prompt.
+If all goes well, all tests should succeed and you can continue on to
+'make install'.
+
+If any tests fail, there is probably a bug in this module. I would
+appreciate a bug-report sent to me at jql@accessone.com.
+
+After the module is installed, you should be able to enter the t/
+directory and run any of the tests by just running 'perl <test>.t'.
+
+Those are the same tests run when you entered 'make test', but this will
+test if the module was installed correctly.
